@@ -594,7 +594,7 @@ async function buyNFT(nftRecord) {
         if (msg.includes("insufficient funds")) msg = "Balansınız kifayət etmir.";
         else if (msg.includes("user rejected")) msg = "İmtina edildi.";
         else if (msg.includes("CALL_EXCEPTION") || msg.includes("UNPREDICTABLE_GAS_LIMIT")) {
-            msg = "XƏTA: Tranzaksiya blokchain tərəfindən rədd edilir.";
+            msg = "Tranzaksiya alınmadı.";
         }
         
         alert("Buy Xətası: " + msg);
