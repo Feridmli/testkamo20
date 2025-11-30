@@ -8,7 +8,7 @@ import { Seaport } from "@opensea/seaport-js";
 // 1. KONFIGÜRASYON VE SABİTLER
 // ==========================================
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://testkamo20.onrender.com";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://testkamo30.onrender.com";
 const NFT_CONTRACT_ADDRESS = import.meta.env.VITE_NFT_CONTRACT || "0x54a88333F6e7540eA982261301309048aC431eD5";
 
 // Seaport 1.5 Canonical Address (Sizin kullandığınız ve ApeChain'de çalışan doğru adres)
